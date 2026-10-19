@@ -1,0 +1,38 @@
+{
+  "race": {
+    "size": 120,
+    "density": 0.15,
+    "seed": 7,
+    "repeats": 9,
+    "astar": {
+      "time_ms": 8.775100024649873,
+      "expanded": 1135,
+      "cost": 172.3919189857868
+    },
+    "aplus": {
+      "time_ms": 7.00510002207011,
+      "expanded": 620,
+      "cost": 172.39191898578667
+    },
+    "cost_match": true,
+    "speedup": 1.2526730520625318,
+    "cell_ratio": 1.8306451612903225
+  },
+  "batch": {
+    "size": 70,
+    "density": 0.15,
+    "n_problems": 200,
+    "cpu_workers": 8,
+    "astar_total_ms": 2025.8298000553623,
+    "aplus_total_ms": 1498.5475000576116,
+    "astar_cells": 96578,
+    "aplus_cells": 51774,
+    "avg_speedup": 1.3400446072178689,
+    "cell_reduction_pct": 46.39151773695873,
+    "cost_matches": 200,
+    "wall_time_s": 2.014150700008031,
+    "min_speedup": 0.47543562950206014,
+    "max_speedup": 4.260868231505183,
+    "median_speedup": 1.2754661454486131
+  }
+}
